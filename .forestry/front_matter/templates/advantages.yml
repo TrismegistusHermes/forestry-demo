@@ -1,0 +1,22 @@
+---
+label: Advantages
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: advantagemain
+  label: Advantage Main
+  config:
+    required: true
+- type: field_group
+  name: advantages
+  label: Advantages
+  fields:
+  - type: text
+    name: advantages_title
+    label: Advantages Title
+    config:
+      required: true
+  - type: file
+    name: advantagesimage
+    label: AdvantagesImage
